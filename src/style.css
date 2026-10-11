@@ -19,3 +19,22 @@
 .community-form input,.community-form textarea,.community-report select{width:100%;padding:12px;border:1px solid #d8d5d0;border-radius:7px;font:inherit;background:#fff;color:#222}
 .community-form .button{justify-self:start}.community-report{display:flex;gap:10px;align-items:center;margin-top:10px}.community-report select{max-width:230px}
 @media(max-width:600px){.community{margin-top:28px;padding:18px}.community-report{flex-direction:column;align-items:stretch}}
+
+/* Owner editing and consistent price headings. */
+.card-bottom>span,.card-bottom>b{display:flex;flex-direction:column;gap:7px;min-width:0;overflow-wrap:anywhere}
+.card-bottom small{font-size:9px;letter-spacing:.1em;color:#8c8580;font-weight:700}
+.card-bottom>b{text-align:right}.stat-row{flex-wrap:wrap}.stat-row strong{overflow-wrap:anywhere}
+.exhibit-date{font-size:12px;color:#767675;margin-top:-15px}.owner-edit{margin-bottom:20px}
+.account-exhibit{flex:1;min-width:0;display:flex;flex-direction:column;gap:7px;overflow-wrap:anywhere}
+.account-exhibit>a{font-weight:600}.edit-fieldset{border:0;margin:0;padding:0;min-width:0;display:flex;flex-direction:column;gap:25px}
+.edit-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.edit-photo{min-width:0;border:1px solid #e8e4de;border-radius:9px;overflow:hidden;background:#faf9f7}
+.edit-photo img{width:100%;height:130px;object-fit:cover}.edit-photo>span{display:block;font-size:11px;padding:8px}
+.photo-actions{display:flex;flex-wrap:wrap;gap:4px;padding:0 6px 8px}
+.photo-actions button{border:1px solid #ddd9d2;border-radius:5px;padding:7px;background:#fff;font-size:11px;min-height:34px}
+.photo-actions button:disabled{opacity:.35;cursor:not-allowed}
+.edit-actions{display:flex;gap:10px;flex-wrap:wrap}.delete-panel{margin-top:35px;border-top:1px solid #ddd9d2;padding-top:25px}
+.delete-panel h2{font-size:25px}.delete-panel p{font-size:13px;color:#767675}.button.danger{background:#a33c35;color:white}
+@media(max-width:500px){.edit-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.edit-photo img{height:120px}.account-row{padding:14px 0;gap:8px}}
+
+.card-edited{font-size:10px;color:#767675;margin-left:9px}
